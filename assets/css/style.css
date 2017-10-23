@@ -53,6 +53,9 @@ a, a:visited, a:hover, a:active {
     line-height: 0;
     height: 0;
 }
+.clear {
+	clear: both;
+}
 
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
@@ -60,7 +63,7 @@ h2 {
 	border-bottom: 2px solid #ddd;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
-	width : 600px;
+	width : 590px;
 	text-align: left;
 	font-size: 26px;
 }
@@ -75,18 +78,10 @@ h3 {
 	font-size: 23px;
 }
 
-
 .menu-icon {
 	width: 68px;
-	height: 68px;
+	height: 63px;
 	padding-right: 5px;
-}
-
-#content {
-	width: 650px;
-	background: #fff;
-	padding:20px;
-	/*margin: auto;*/
 }
 
 #profile_photo {
@@ -95,14 +90,9 @@ h3 {
 	float: left;
 	margin: 0px 20px 20px 0px;
 }
-.clear {
-	clear: both;
-}
-
 .content-wrapper {	
 	width: 100%;
 	padding-top: 20px;
-	/*background-image: url("../images/bg_concrete-seamless.png");*/
 	border-top: 2px solid #ccc;
 	min-height: 100%;
 }
@@ -114,7 +104,11 @@ h3 {
 	width: 650px;
 	background: #fff;
 	margin: auto;
+	margin-bottom: 70px;
 	float: left;
+	padding: 30px;
+	padding-top: 0px;
+	line-height: 1.8;
 }
 
 #sidebar {
@@ -125,6 +119,85 @@ h3 {
 	padding: 20px 20px 30px 30px;
 }
 
+.portfolio_pic {
+	width: 280px;
+	height: 200px;
+}
+
+.portfolio_pic_left {
+	display: inline-block;
+	float:left;
+	width: 280px;
+	height: 200px;
+	margin: 0px 30px 30px 0px;
+}
+
+.portfolio_item_title {
+	width: 280px;
+	height: 50px;
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	position: relative;
+	margin-bottom: -50px;
+	bottom: 70px;
+	left: 0px;
+	z-index: 2;
+	text-align: center;
+	font-size: 22px;
+	padding-top: 8px;
+	float: left;
+}
+#contact_form {
+	font-size: 20px;
+	line-height: 2;
+	/*color: #eee;*/
+}
+input {
+	width: 100%;
+	height: 35px;
+	font-size: 18px;
+	color: #aaa;
+	padding: 8px;
+	margin-bottom: 15px;
+}
+input:focus {
+	color: black;
+}
+textarea {
+	width: 100%;
+	height: 200px;
+	font-size: 18px;
+	color: #aaa;
+	padding: 8px;
+	border-color: #ccc;
+}
+textarea:focus {
+	color : #000;
+}
+/* styling for form placeholders */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
+/* ------------------------------*/
+#f_submit {
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	background: #4aaaa6;
+	color: #fff;
+	border: 0px;
+}
+
 .header-wrapper {
 	width: 100%;
 	background: #fff;
@@ -133,7 +206,7 @@ h3 {
 	min-height: 100%;
 	background-image: url("../images/bg_concrete-seamless.png");
 }
-*
+
 .footer {
 	width: 100%;
 	margin-top: -78px;
