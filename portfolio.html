@@ -3,81 +3,88 @@
 <head>
 	<meta charset="utf-8">
 	<title>Basic Portfolio: Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-	<div class="wrapper">
-		<div class="header-wrapper">
-		<div id="header" class="clearfix">
+	<div id="wrapper">
+		<div id="header-wrapper">
+		<header>
 			<h1>Victoria Pismennaya</h1>
-			<div id="menu-box">
-				<a class="menu" href="index.html">About</a>
-				<a class="menu" id="menu-mid-item" href="#">Portfolio</a>
-				<a class="menu" href="contact.html">Contact</a>
-			</div>
+			<nav>
+				<ul>
+					<li class="menu"><a href="index.html">About</a></li>
+					<li class="menu" id="menu-mid-item"><a href="#">Portfolio</a></li>
+					<li class="menu"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
 			<br>
+		</header>
 		</div>
-		</div>
-		<div class="content-wrapper">
+		<div id="content-wrapper">
 			<div id="content-inside">
-				<div id="content">
-					<section>
-						<h2 id="page_title">Portfolio</h2>
-						<div class="portfolio_pic_left">
+				<section>
+					<h2 id="page_title">Portfolio</h2>
+					<ul class="portfolio">
+						<li>
 							<a href="#">
-								<img class="portfolio_pic" src="assets/images/hangman1.jpeg" alt="Hangman">
+								<img class="portfolio_pic" src="assets/images/hangman.jpeg" alt="Hangman">
 								<div class="portfolio_item_title">Hangman</div>
 							</a>
-						</div>
-						<div class="portfolio_pic_right">
+						</li>
+						<li>
 							<a href="#">
-								<img class="portfolio_pic" src="assets/images/rpg_game1.jpeg" alt="RPG Game">
+								<img class="portfolio_pic" src="assets/images/rpg_game.jpeg" alt="RPG Game">
 								<div class="portfolio_item_title">RPG Game</div>
 							</a>
-						</div>
-						<p class="clear"></p>
-						<div class="portfolio_pic_left">
+						</li>
+						<li>
 							<a href="#">
-								<img class="portfolio_pic" src="assets/images/trivia1.jpeg" alt="Trivia Game">
+								<img class="portfolio_pic" src="assets/images/trivia.jpeg" alt="Trivia Game">
 								<div class="portfolio_item_title">Trivia Game</div>
 							</a>
-						</div>
-						<div class="portfolio_pic_right">
+						</li>
+						<li>
 							<a href="#">
-								<img class="portfolio_pic" src="assets/images/rutgers_info_widget1.jpeg" alt="Rutgers Info Widget">
+								<img class="portfolio_pic" src="assets/images/rutgers_info_widget.jpeg" alt="Rutgers Info Widget">
 								<div class="portfolio_item_title">Rutgers Info Widget</div>
 							</a>
-						</div>
-						<p class="clear"></p>
-						<div class="portfolio_pic_left">
+						</li>
+						<li>
 							<a href="#">
-								<img class="portfolio_pic" src="assets/images/rock_papper_scissors1.jpeg" alt="Rock Papper Scissors">
+								<img class="portfolio_pic" src="assets/images/rock_papper_scissors.jpeg" alt="Rock Papper Scissors">
 								<div class="portfolio_item_title">Rock Papper Scissors</div>
 							</a>
-						</div>
-						<p class="clear"></p>
-					</section>
-				</div>
-			
-				<div id="sidebar">
+						</li>
+					</ul>
+				</section>
+
+				<aside>
 					<h3 id="menu_title">Connect with Me</h3>
-					<a href="https://github.com/silvery787" target="_blank">
-						<img class="menu-icon" src="assets/images/ico_github.png" alt="git_icon">
-					</a>
-					<a href="https://www.linkedin.com/in/victoria-pismennaya-8822a532/" target="_blank">
-						<img class="menu-icon" src="assets/images/ico_linkedin.png" alt="linkedin_icon">
-					</a>
-					<a href="https://stackoverflow.com/users/8613127/victoria?tab=profile" target="_blank">
-						<img class="menu-icon" src="assets/images/ico_overflow.png" alt="overflow_icon">
-					</a>
-				</div>
+					<ul>
+						<li class="social_menu">
+							<a href="https://github.com/silvery787" target="_blank">
+								<img class="social-icon" src="assets/images/ico_github.png" alt="git_icon">
+							</a>
+						</li>
+						<li class="social_menu">
+							<a href="https://www.linkedin.com/in/victoria-pismennaya-8822a532/" target="_blank">
+								<img class="social-icon" src="assets/images/ico_linkedin.png" alt="linkedin_icon">
+							</a>
+						</li>
+						<li class="social_menu">
+							<a href="https://stackoverflow.com/users/8613127/victoria?tab=profile" target="_blank">
+								<img class="social-icon" src="assets/images/ico_overflow.png" alt="overflow_icon">
+							</a>
+						</li>
+					</ul>
+				</aside>
 				<p class="clear"></p>
 				<br>
 			</div>
 		</div>
 	</div> 
 	
-	<footer class="footer">
+	<footer>
 		&copy; Copyright 2017 Victoria Pismennaya
 	</footer>
 
